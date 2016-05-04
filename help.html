@@ -1,0 +1,37 @@
+<head>
+
+    <title>
+        http server helping page
+    </title>
+    <!--<style type="text/css"-->
+<!--@import"theme.css"-->
+<!--</style>-->
+    <link href="theme.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1>Http Server  Help Document</h1>
+    <h2>What is implemented?</h2>
+    <p>This web server is far from complete and the purpose of it is to be very light weight to give an idea of where to start when wanting to understand web servers and C.</p>
+    <p>It supports GET and HEAD so you can use it to receive any files that correspond with the mime types in mime.types.</p>
+    <h1>How do I run it?</h1>
+    <ol>
+        <li>Download the source</li>
+        <li>Compile the source using GCC</li>
+        <li>Run</li>
+    </ol>
+    <h2>Command line arguments</h2>
+    <p>You can start the web server with the following command line arguments:</p>
+    <pre><code>-p port number
+-d run as daemon
+-l log file
+    </code></pre>
+    <h2>What about configuration?</h2>
+    <p>You can open httpd.conf and change the following:</p>
+    <ul>
+        <li>for emample</li>
+    </ul>
+    <pre><code>
+    wwwroot /home/luo/public_html/
+    port 7000   
+    </code></pre>
+</body>
