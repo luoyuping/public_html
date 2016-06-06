@@ -18,7 +18,8 @@ int main(void) {
 
 
     /* Make the response body */
-    sprintf(content, "<h1>Test CGI in method get </h1>\r\n<p>the name:%s</p>\r\n <p>the password:%s\r\n</p>\r\n<p>Thanks for visiting!</p>\r\n",name,passwd);
+    sprintf(content, "<h1>Test CGI in method get </h1>\r\n<p>the name:%s</p>\r\n 
+            <p>the password:%s\r\n</p>\r\n<p>Thanks for visiting!</p>\r\n",name,passwd);
 
     /* Generate the HTTP response */
 
