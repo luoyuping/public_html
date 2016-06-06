@@ -23,7 +23,8 @@ int main(void) {
         *p = '\0';
         strcpy(name, data);
         strcpy(passwd, p+1);
-        sprintf(content, "<h1>Test CGI in method Post </h1>\r\n<p>the name:%s</p>\r\n <p>the password:%s\r\n</p>\r\n<p>Thanks for visiting!</p>\r\n",name,passwd);
+        sprintf(content, "<h1>Test CGI in method Post </h1>\r\n<p>the name:%s</p>\r\n
+                <p>the password:%s\r\n</p>\r\n<p>Thanks for visiting!</p>\r\n",name,passwd);
     }
     printf("HTTP/1.0 200 OK\r\n");
     printf("Server: Linux_C Web Server\r\n");
